@@ -5,7 +5,6 @@ export default function Books(data) {
   const getPinBook = (e) => {
     setPinBook(e)
     localStorage.setItem(pinBook.id, JSON.stringify(pinBook))
-    console.log(pinBook)
   }
   return (
     <div className='grid grid-cols-3 gap-4 mt-6'>
